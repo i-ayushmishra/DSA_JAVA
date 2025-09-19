@@ -8,7 +8,7 @@ public class ProgramNo_1480 {
         int [] nums = {3,1,2,10,1};
         runningSum(nums);
     }
-    public static int runningSum(int [] nums){
+    public static void runningSum(int [] nums){
         int [] sumnums = new int[nums.length];
         int sum=0;
         for(int i=0;i<nums.length;i++){
@@ -18,6 +18,5 @@ public class ProgramNo_1480 {
         for(int i=0;i<sumnums.length;i++){
             System.out.print(sumnums[i] +" ");
         }
-        return 0;
     }
 }
