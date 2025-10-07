@@ -11,7 +11,6 @@ public class ProgramNo_540 {
     }
     public static  int singleNonDuplicate(int[] nums){
         int start=0; int end=nums.length-1;
-        int tem=0;
         // Edge case: only one element
         if (nums.length == 1) {
             return nums[0];
