@@ -10,7 +10,7 @@ public class ProgramNo_81 {
         System.out.println(ans);
     }
     public static  boolean search(int[] nums, int target){
-        int res=-1;
+
         int start=0;
         int end= nums.length-1;
         while(start<=end){
