@@ -48,4 +48,4 @@ If you have suggestions or better approaches, feel free to connect or contribute
 
 ---
 
-⭐ This repository reflects my ongoing journey — consistency over perfection....
+⭐ This repository reflects my ongoing journey — consistency over perfection.
