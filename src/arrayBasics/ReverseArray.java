@@ -14,14 +14,21 @@ public class ReverseArray {
             System.out.print( reverse[i] + " ");
         }
 
+
     }
     public static int[] reverseArray(int [] arr){
-        int [] tem = new int[arr.length];
-        for (int i =0; i< arr.length; i++){
-            // temp[0] = arr[length -1-i];  --> means temp 0 = 4 -1-0 , temp  1=4-1-1, temp 2=4-1-2, 3=4-1-3
-          tem[i]=arr[arr.length-1-i];   // temp me value fill ho rahi hai, arr ke end se start ki taraf
+        int size = arr.length;
+        int i=0;
+        int j=size-1;
+        int temp=0;
+        while(i<=j){
+            temp=arr[i];
+            arr[i]=arr[j];
+            arr[j]=temp;
+            i++;
+            j--;
         }
-        return tem;
+        return arr;
     }
 
 }
